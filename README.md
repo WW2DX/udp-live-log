@@ -1,10 +1,33 @@
 # 📡 UDP Live Log — N1MM to Club Log Bridge
 
-**Version 1.4.1**
+**Version 1.4.1** &nbsp;·&nbsp; *Vibe Coded de [WW2DX](https://www.ww2dx.com)*
 
 A self-contained Python bridge that connects [N1MM Logger+](https://n1mm.hamdocs.com/) to [Club Log Livestream](https://clublog.org/livestream.php), with a real-time web dashboard, comprehensive statistics, ADIF logging, and Raspberry Pi system monitoring — all in a single script with zero external dependencies.
 
-Vibe Coded de [WW2DX](https://www.ww2dx.com)
+---
+
+## Live Dashboard
+
+![Live Dashboard](screenshots/dashboard.png)
+
+---
+
+## Screenshots
+
+### Club Log Livestream — Updating in Real Time
+![Club Log Livestream](screenshots/clublog-live.png)
+
+### Statistics — Summary
+![Statistics Summary](screenshots/stats-summary.png)
+
+### Statistics — Rates
+![Statistics Rates](screenshots/stats-rates.png)
+
+### ADIF Log Files
+![ADIF Log Files](screenshots/logs.png)
+
+### About Page
+![About Page](screenshots/about.png)
 
 ---
 
@@ -52,26 +75,6 @@ Vibe Coded de [WW2DX](https://www.ww2dx.com)
 
 ---
 
-
-## Screenshots
-
-### Live Dashboard
-![Live Dashboard](screenshots/dashboard.png)
-
-### ADIF Log Files
-![ADIF Log Files](screenshots/logs.png)
-
-### Statistics — Summary
-![Statistics Summary](screenshots/stats-summary.png)
-
-### Statistics — Rates
-![Statistics Rates](screenshots/stats-rates.png)
-
-### About Page
-![About Page](screenshots/about.png)
-
----
-
 ## Requirements
 
 - Python 3.8 or later
@@ -85,7 +88,7 @@ Vibe Coded de [WW2DX](https://www.ww2dx.com)
 
 **1. Download the script**
 ```bash
-wget https://raw.githubusercontent.com/YOUR_USERNAME/udp-live-log/main/udp_live_log.py
+wget https://raw.githubusercontent.com/WW2DX/udp-live-log/main/udp_live_log.py
 ```
 
 **2. Generate a sample config file**
@@ -146,7 +149,7 @@ state_file = log_state.json
 
 ### Club Log App Password
 
-Your App Password is a separate credential from your Club Log login password. Generate one at:
+Your App Password is a separate credential from your Club Log login password. Generate one at:  
 **https://clublog.org/appkeys.php**
 
 It looks like: `407-Xl908-Rm690-Xx661-Wi881-Bg822-Hn`
