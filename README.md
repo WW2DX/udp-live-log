@@ -52,6 +52,26 @@ Vibe Coded de [WW2DX](https://www.ww2dx.com)
 
 ---
 
+
+## Screenshots
+
+### Live Dashboard
+![Live Dashboard](screenshots/dashboard.png)
+
+### ADIF Log Files
+![ADIF Log Files](screenshots/logs.png)
+
+### Statistics — Summary
+![Statistics Summary](screenshots/stats-summary.png)
+
+### Statistics — Rates
+![Statistics Rates](screenshots/stats-rates.png)
+
+### About Page
+![About Page](screenshots/about.png)
+
+---
+
 ## Requirements
 
 - Python 3.8 or later
