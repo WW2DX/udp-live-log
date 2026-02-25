@@ -65,12 +65,12 @@ Vibe Coded de [WW2DX](https://www.ww2dx.com)
 
 **1. Download the script**
 ```bash
-wget https://raw.githubusercontent.com/YOUR_USERNAME/udp-live-log/main/n1mm_clublog_bridge.py
+wget https://raw.githubusercontent.com/YOUR_USERNAME/udp-live-log/main/udp_live_log.py
 ```
 
 **2. Generate a sample config file**
 ```bash
-python3 n1mm_clublog_bridge.py --write-config
+python3 udp_live_log.py --write-config
 ```
 
 **3. Edit `config.ini`**
@@ -89,7 +89,7 @@ state_file = log_state.json
 
 **4. Run**
 ```bash
-python3 n1mm_clublog_bridge.py
+python3 udp_live_log.py
 ```
 
 **5. Open the dashboard**
@@ -136,7 +136,7 @@ It looks like: `407-Xl908-Rm690-Xx661-Wi881-Bg822-Hn`
 ## Command Line Options
 
 ```
-python3 n1mm_clublog_bridge.py [options]
+python3 udp_live_log.py [options]
 
   --callsign CALL       Station callsign (overrides config.ini)
   --password PASS       Club Log App Password (overrides config.ini)
@@ -181,7 +181,7 @@ After=network.target
 Type=simple
 User=pi
 WorkingDirectory=/home/pi/udp-live-log
-ExecStart=/usr/bin/python3 /home/pi/udp-live-log/n1mm_clublog_bridge.py
+ExecStart=/usr/bin/python3 /home/pi/udp-live-log/udp_live_log.py
 Restart=on-failure
 RestartSec=5
 

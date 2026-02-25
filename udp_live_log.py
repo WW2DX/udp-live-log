@@ -12,7 +12,7 @@ Requirements:
   pip install flask requests
 
 Usage:
-  python3 n1mm_clublog_bridge.py --callsign YOURCALL --clublog-key YOUR_API_KEY
+  python3 udp_live_log.py --callsign YOURCALL --clublog-key YOUR_API_KEY
 
 Configuration can also be done via config.ini (see bottom of file).
 """
